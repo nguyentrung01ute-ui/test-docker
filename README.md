@@ -14,6 +14,12 @@ The goal is not only to memorize Docker commands, but to understand how Docker i
 
 The repository starts with a simple Spring Boot + MySQL application and gradually expands to Redis, Nginx, Kafka, CI/CD, production deployment, and Kubernetes.
 
+## Docker Architecture
+
+![Docker Architecture](docs/docker-architecture.png)
+
+> This diagram summarizes the relationship between the Dockerfile, Docker CLI, Docker Daemon, images, containers, Docker Compose, networks, and image registries.
+
 ```text
 Application
     ↓
